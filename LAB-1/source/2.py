@@ -1,5 +1,7 @@
 sentence=input("enter the sentence: ")              #inputing the sentence
 final=sentence.split(' ')                           #splitting the sentence with blank space stored in final
+revWords = [word[::-1] for word in final]
+newSentence = " ".join(revWords)
 index=len(final)                                    #finding the length of the final
 mid=int(index/2)
 if index==2:                                        #if the length is resulted as 2, we can conclude theres no middle word
@@ -21,4 +23,5 @@ def findlong(final) :                               #to find the longest in sent
     print("longest word:", longest_word)
 findlong(final)
 
-print("reversed sentence is:", sentence[::-1])      #printing the given sentence in reverse order
+
+print("reversed sentence is:", newSentence)      #printing the given sentence in reverse order
