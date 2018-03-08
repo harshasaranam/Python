@@ -1,0 +1,6 @@
+Submit your code at Github and properly document it.
+Submit your screenshots as well.
+Properly document your code.
+Submit only the code portion in text file to UMKC blackboard assignment.
+Remember code similarity to be less than 45%.
+Use following link to Submit your assignment:
